@@ -1,0 +1,221 @@
+random: 1/200 episodes, 0 successes, 0.2s
+random: 10/200 episodes, 0 successes, 0.3s
+random: 20/200 episodes, 0 successes, 0.3s
+random: 30/200 episodes, 0 successes, 0.4s
+random: 40/200 episodes, 0 successes, 0.5s
+random: 50/200 episodes, 0 successes, 0.5s
+random: 60/200 episodes, 0 successes, 0.6s
+random: 70/200 episodes, 0 successes, 0.6s
+random: 80/200 episodes, 0 successes, 0.7s
+random: 90/200 episodes, 0 successes, 0.8s
+random: 100/200 episodes, 0 successes, 0.8s
+random: 110/200 episodes, 0 successes, 0.9s
+random: 120/200 episodes, 0 successes, 0.9s
+random: 130/200 episodes, 0 successes, 1.0s
+random: 140/200 episodes, 0 successes, 1.0s
+random: 150/200 episodes, 0 successes, 1.1s
+random: 160/200 episodes, 0 successes, 1.2s
+random: 170/200 episodes, 0 successes, 1.2s
+random: 180/200 episodes, 0 successes, 1.3s
+random: 190/200 episodes, 0 successes, 1.3s
+random: 200/200 episodes, 0 successes, 1.4s
+heuristic: 1/200 episodes, 1 successes, 0.0s
+heuristic: 10/200 episodes, 10 successes, 0.3s
+heuristic: 20/200 episodes, 20 successes, 0.6s
+heuristic: 30/200 episodes, 30 successes, 0.9s
+heuristic: 40/200 episodes, 40 successes, 1.2s
+heuristic: 50/200 episodes, 50 successes, 1.5s
+heuristic: 60/200 episodes, 60 successes, 1.7s
+heuristic: 70/200 episodes, 70 successes, 2.0s
+heuristic: 80/200 episodes, 80 successes, 2.3s
+heuristic: 90/200 episodes, 90 successes, 2.6s
+heuristic: 100/200 episodes, 100 successes, 2.9s
+heuristic: 110/200 episodes, 110 successes, 3.2s
+heuristic: 120/200 episodes, 120 successes, 3.5s
+heuristic: 130/200 episodes, 130 successes, 3.7s
+heuristic: 140/200 episodes, 140 successes, 4.0s
+heuristic: 150/200 episodes, 150 successes, 4.3s
+heuristic: 160/200 episodes, 160 successes, 4.6s
+heuristic: 170/200 episodes, 170 successes, 4.9s
+heuristic: 180/200 episodes, 180 successes, 5.2s
+heuristic: 190/200 episodes, 190 successes, 5.5s
+heuristic: 200/200 episodes, 200 successes, 5.8s
+untrained: 1/200 episodes, 0 successes, 0.0s
+untrained: 10/200 episodes, 0 successes, 0.0s
+untrained: 20/200 episodes, 0 successes, 0.1s
+untrained: 30/200 episodes, 0 successes, 0.1s
+untrained: 40/200 episodes, 0 successes, 0.2s
+untrained: 50/200 episodes, 0 successes, 0.2s
+untrained: 60/200 episodes, 0 successes, 0.3s
+untrained: 70/200 episodes, 0 successes, 0.3s
+untrained: 80/200 episodes, 0 successes, 0.4s
+untrained: 90/200 episodes, 0 successes, 0.4s
+untrained: 100/200 episodes, 0 successes, 0.5s
+untrained: 110/200 episodes, 0 successes, 0.5s
+untrained: 120/200 episodes, 0 successes, 0.5s
+untrained: 130/200 episodes, 0 successes, 0.6s
+untrained: 140/200 episodes, 0 successes, 0.6s
+untrained: 150/200 episodes, 0 successes, 0.7s
+untrained: 160/200 episodes, 0 successes, 0.7s
+untrained: 170/200 episodes, 0 successes, 0.8s
+untrained: 180/200 episodes, 0 successes, 0.8s
+untrained: 190/200 episodes, 0 successes, 0.9s
+untrained: 200/200 episodes, 0 successes, 0.9s
+initialized: 1/200 episodes, 1 successes, 0.0s
+initialized: 10/200 episodes, 10 successes, 0.3s
+initialized: 20/200 episodes, 20 successes, 0.7s
+initialized: 30/200 episodes, 30 successes, 1.0s
+initialized: 40/200 episodes, 40 successes, 1.4s
+initialized: 50/200 episodes, 50 successes, 1.7s
+initialized: 60/200 episodes, 60 successes, 2.1s
+initialized: 70/200 episodes, 70 successes, 2.4s
+initialized: 80/200 episodes, 80 successes, 2.7s
+initialized: 90/200 episodes, 90 successes, 3.1s
+initialized: 100/200 episodes, 100 successes, 3.4s
+initialized: 110/200 episodes, 110 successes, 3.8s
+initialized: 120/200 episodes, 120 successes, 4.1s
+initialized: 130/200 episodes, 130 successes, 4.4s
+initialized: 140/200 episodes, 140 successes, 4.8s
+initialized: 150/200 episodes, 150 successes, 5.1s
+initialized: 160/200 episodes, 160 successes, 5.5s
+initialized: 170/200 episodes, 170 successes, 5.8s
+initialized: 180/200 episodes, 180 successes, 6.1s
+initialized: 190/200 episodes, 190 successes, 6.5s
+initialized: 200/200 episodes, 200 successes, 6.8s
+model: 1/200 episodes, 1 successes, 0.0s
+model: 10/200 episodes, 10 successes, 0.3s
+model: 20/200 episodes, 20 successes, 0.7s
+model: 30/200 episodes, 30 successes, 1.0s
+model: 40/200 episodes, 40 successes, 1.4s
+model: 50/200 episodes, 50 successes, 1.7s
+model: 60/200 episodes, 60 successes, 2.0s
+model: 70/200 episodes, 70 successes, 2.4s
+model: 80/200 episodes, 80 successes, 2.7s
+model: 90/200 episodes, 90 successes, 3.1s
+model: 100/200 episodes, 100 successes, 3.4s
+model: 110/200 episodes, 110 successes, 3.8s
+model: 120/200 episodes, 120 successes, 4.1s
+model: 130/200 episodes, 130 successes, 4.4s
+model: 140/200 episodes, 140 successes, 4.8s
+model: 150/200 episodes, 150 successes, 5.2s
+model: 160/200 episodes, 160 successes, 5.5s
+model: 170/200 episodes, 170 successes, 5.9s
+model: 180/200 episodes, 180 successes, 6.2s
+model: 190/200 episodes, 190 successes, 6.6s
+model: 200/200 episodes, 200 successes, 7.0s
+{
+  "random": {
+    "success_rate": 0.0,
+    "successes": 0,
+    "episodes": 200,
+    "success_rate_wilson_95": [
+      1.734723475976807e-18,
+      0.018845326377266575
+    ],
+    "successful_pieces_median": null,
+    "successful_pieces_p90": null,
+    "successful_game_time_seconds_median": null,
+    "successful_game_time_seconds_p90": null,
+    "failure_lines_median": 0.0,
+    "failure_lines_p90": 0.0,
+    "failure_reasons": {
+      "lock_out": 200
+    },
+    "all_lines_mean": 0.025,
+    "all_episode_return_mean": -101.10875,
+    "all_pieces": 4535,
+    "all_input_ticks": 26761,
+    "total_inference_seconds": 0.12012779999349732,
+    "total_episode_wall_seconds": 1.3899910999462008
+  },
+  "heuristic": {
+    "success_rate": 1.0,
+    "successes": 200,
+    "episodes": 200,
+    "success_rate_wilson_95": [
+      0.9811546736227335,
+      1.0
+    ],
+    "successful_pieces_median": 102.0,
+    "successful_pieces_p90": 104.0,
+    "successful_game_time_seconds_median": 7.416666666666667,
+    "successful_game_time_seconds_p90": 7.77,
+    "failure_lines_median": null,
+    "failure_lines_p90": null,
+    "failure_reasons": {},
+    "all_lines_mean": 40.055,
+    "all_episode_return_mean": 134.88500000000005,
+    "all_pieces": 20460,
+    "all_input_ticks": 89491,
+    "total_inference_seconds": 0.5740635003021453,
+    "total_episode_wall_seconds": 5.730446799949277
+  },
+  "untrained": {
+    "success_rate": 0.0,
+    "successes": 0,
+    "episodes": 200,
+    "success_rate_wilson_95": [
+      1.734723475976807e-18,
+      0.018845326377266575
+    ],
+    "successful_pieces_median": null,
+    "successful_pieces_p90": null,
+    "successful_game_time_seconds_median": null,
+    "successful_game_time_seconds_p90": null,
+    "failure_lines_median": 0.0,
+    "failure_lines_p90": 0.0,
+    "failure_reasons": {
+      "lock_out": 200
+    },
+    "all_lines_mean": 0.0,
+    "all_episode_return_mean": -100.6575,
+    "all_pieces": 2630,
+    "all_input_ticks": 11756,
+    "total_inference_seconds": 0.20258780030417256,
+    "total_episode_wall_seconds": 0.9111679999477929
+  },
+  "initialized": {
+    "success_rate": 1.0,
+    "successes": 200,
+    "episodes": 200,
+    "success_rate_wilson_95": [
+      0.9811546736227335,
+      1.0
+    ],
+    "successful_pieces_median": 102.0,
+    "successful_pieces_p90": 104.0,
+    "successful_game_time_seconds_median": 7.416666666666667,
+    "successful_game_time_seconds_p90": 7.77,
+    "failure_lines_median": null,
+    "failure_lines_p90": null,
+    "failure_reasons": {},
+    "all_lines_mean": 40.055,
+    "all_episode_return_mean": 134.88500000000005,
+    "all_pieces": 20460,
+    "all_input_ticks": 89491,
+    "total_inference_seconds": 1.52119330009009,
+    "total_episode_wall_seconds": 6.798692100106564
+  },
+  "model": {
+    "success_rate": 1.0,
+    "successes": 200,
+    "episodes": 200,
+    "success_rate_wilson_95": [
+      0.9811546736227335,
+      1.0
+    ],
+    "successful_pieces_median": 102.0,
+    "successful_pieces_p90": 103.0,
+    "successful_game_time_seconds_median": 7.466666666666667,
+    "successful_game_time_seconds_p90": 7.735,
+    "failure_lines_median": null,
+    "failure_lines_p90": null,
+    "failure_reasons": {},
+    "all_lines_mean": 40.05,
+    "all_episode_return_mean": 134.89575000000005,
+    "all_pieces": 20417,
+    "all_input_ticks": 89716,
+    "total_inference_seconds": 1.5650292996797361,
+    "total_episode_wall_seconds": 6.936147800042818
+  }
+}

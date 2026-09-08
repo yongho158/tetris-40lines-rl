@@ -1,0 +1,2 @@
+{"seed": 851, "success": false, "reason": "lock_out", "lines": 0, "pieces": 25, "terminated": true, "truncated": false, "input_ticks": 112, "game_time_seconds": 1.8666666666666667, "episode_return": -101.25, "inference_seconds": 0.0009190999990096316, "wall_seconds": 0.24331589999928838}
+{"seed": 852, "success": false, "reason": "lock_out", "lines": 0, "pieces": 22, "terminated": true, "truncated": false, "input_ticks": 127, "game_time_seconds": 2.1166666666666667, "episode_return": -101.1, "inference_seconds": 0.0006137999953352846, "wall_seconds": 0.00602420000359416}

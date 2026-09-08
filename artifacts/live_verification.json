@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-09-08T13:11:59.039720+00:00",
+  "python_tests": {
+    "passed": 48,
+    "seconds": 9.76,
+    "live_tests": 15
+  },
+  "javascript_tests": {
+    "live_ui_check": "passed",
+    "replay_timing_check": "passed"
+  },
+  "browser_game": {
+    "url": "http://127.0.0.1:8766/",
+    "seed": 3000000,
+    "success": true,
+    "lines": 40,
+    "pieces": 102,
+    "displayed_game_seconds": 7.28,
+    "displayed_wall_seconds_including_pauses": 23.1,
+    "displayed_inference_ms": 46.2,
+    "source": "Actual browser UI after on-demand model inference; no replay loaded"
+  },
+  "browser_checks": [
+    "hold/current/next update",
+    "single-placement 71 to 72 then pause",
+    "original speed through completion",
+    "narrow viewport board and controls",
+    "new game"
+  ],
+  "checkpoint_sha256": "02ad057ab843385825851ce0726a20da08da0bdb42650bdefdb95a2042569b85",
+  "frozen_source_unchanged": {
+    "engine.py": true,
+    "env.py": true,
+    "policy.py": true,
+    "evaluate.py": true
+  },
+  "entrypoint": "python -m tetris_rl.live --checkpoint artifacts/final_model.pt",
+  "implementation_sha256": {
+    "tetris_rl/live.py": "a67e2bda64f8ee8dee3459ebf854c5d7cdacb11b0757fddfeaf13b835915dda3",
+    "tetris_rl/live.html": "2ab8bade9772515ffd9714efd19aba8baaef7dcdacf6d7668a0dcc32e540faf4",
+    "tests/test_live.py": "a70f681e1859569076c0444fbd3d93db1d15e60924d386731178c595b3fcdf58",
+    "tests/live_ui_check.cjs": "06bc4e17848dfe97a30cfdf054ff0e0c1c4bb0f7aef91ae78828c1afba15b61b"
+  }
+}

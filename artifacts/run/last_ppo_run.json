@@ -1,0 +1,18 @@
+{
+  "method": "ppo",
+  "outcome": "finished_requested_generations",
+  "invocation_transitions": 764,
+  "budget": {
+    "started_at_unix": 1788868037.1120808,
+    "started_at_utc": "2026-09-08T11:47:17.112081+00:00",
+    "max_seconds": 18000.0,
+    "max_transitions": 5000000,
+    "transitions": 4764,
+    "reserved_transitions": 4764,
+    "elapsed_seconds": 30.289185762405396,
+    "remaining_steps": 4995236,
+    "deadline_utc": "2026-09-08T16:47:17.112081+00:00",
+    "exhausted": false,
+    "accounting": "all training and validation steps; elapsed wall time across sequential runs; crash reservations charged conservatively"
+  }
+}

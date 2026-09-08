@@ -1,0 +1,154 @@
+{
+  "format_version": 1,
+  "seed_set_name": "smoke",
+  "seeds": [
+    851,
+    852
+  ],
+  "seed_sha256": "f9f23bd41a95bbafed67acaf09028d4832df53f62651643613d88eacd38cf61b",
+  "evaluation_config": {
+    "target_lines": 40,
+    "max_pieces": 500,
+    "deterministic_policy": true,
+    "seed_set_name": "smoke",
+    "seeds": [
+      851,
+      852
+    ],
+    "reward_config": {
+      "line": 1.0,
+      "success": 100.0,
+      "topout": -100.0,
+      "placement": -0.05,
+      "invalid": -1.0,
+      "potential_scale": 0.1,
+      "height_weight": 0.02,
+      "holes_weight": 0.5,
+      "potential_bound": 10.0
+    }
+  },
+  "config_sha256": "cb0c4d861e76383e08fe70a1569584d46e6da5aca4171f6adce630d182e2cad4",
+  "source_sha256": {
+    "engine.py": "85f6747e739f5c5a738030db0769614565252d67da06d396cdbe5a4ebb85a953",
+    "env.py": "bfa326ac397ade8f86f70fb155458b91def7a604fdbe3cd2e749767ce2b632d4",
+    "policy.py": "52cc147d74c5d99db89d70a4f7c20d36f995c6350d1c3013d015a0889f684a28",
+    "evaluate.py": "83836c9e97b9a78649e8d69f30f05743c60b4cc64e280b2aec293c68c36f2d1e"
+  },
+  "game_time_definition": "Input token count / 60; simulation excludes timed gravity, DAS/ARR and line-clear delay.",
+  "results": {
+    "random": {
+      "agent": "random",
+      "summary": {
+        "success_rate": 0.0,
+        "successes": 0,
+        "episodes": 2,
+        "success_rate_wilson_95": [
+          0.0,
+          0.6576197724933469
+        ],
+        "successful_pieces_median": null,
+        "successful_pieces_p90": null,
+        "successful_game_time_seconds_median": null,
+        "successful_game_time_seconds_p90": null,
+        "failure_lines_median": 0.0,
+        "failure_lines_p90": 0.0,
+        "failure_reasons": {
+          "lock_out": 2
+        },
+        "all_lines_mean": 0.0,
+        "all_episode_return_mean": -101.175,
+        "all_pieces": 47,
+        "all_input_ticks": 239,
+        "total_inference_seconds": 0.0015328999943449162,
+        "total_episode_wall_seconds": 0.24934010000288254
+      },
+      "episodes": [
+        {
+          "seed": 851,
+          "success": false,
+          "reason": "lock_out",
+          "lines": 0,
+          "pieces": 25,
+          "terminated": true,
+          "truncated": false,
+          "input_ticks": 112,
+          "game_time_seconds": 1.8666666666666667,
+          "episode_return": -101.25,
+          "inference_seconds": 0.0009190999990096316,
+          "wall_seconds": 0.24331589999928838
+        },
+        {
+          "seed": 852,
+          "success": false,
+          "reason": "lock_out",
+          "lines": 0,
+          "pieces": 22,
+          "terminated": true,
+          "truncated": false,
+          "input_ticks": 127,
+          "game_time_seconds": 2.1166666666666667,
+          "episode_return": -101.1,
+          "inference_seconds": 0.0006137999953352846,
+          "wall_seconds": 0.00602420000359416
+        }
+      ],
+      "evaluation_wall_seconds": 0.25216379999619676
+    },
+    "heuristic": {
+      "agent": "heuristic",
+      "summary": {
+        "success_rate": 1.0,
+        "successes": 2,
+        "episodes": 2,
+        "success_rate_wilson_95": [
+          0.34238022750665303,
+          1.0
+        ],
+        "successful_pieces_median": 102.0,
+        "successful_pieces_p90": 102.0,
+        "successful_game_time_seconds_median": 7.383333333333333,
+        "successful_game_time_seconds_p90": 7.463333333333334,
+        "failure_lines_median": null,
+        "failure_lines_p90": null,
+        "failure_reasons": {},
+        "all_lines_mean": 40.0,
+        "all_episode_return_mean": 134.90000000000003,
+        "all_pieces": 204,
+        "all_input_ticks": 886,
+        "total_inference_seconds": 0.1377226999393315,
+        "total_episode_wall_seconds": 0.19676069999695756
+      },
+      "episodes": [
+        {
+          "seed": 851,
+          "success": true,
+          "reason": "success",
+          "lines": 40,
+          "pieces": 102,
+          "terminated": true,
+          "truncated": false,
+          "input_ticks": 437,
+          "game_time_seconds": 7.283333333333333,
+          "episode_return": 134.90000000000003,
+          "inference_seconds": 0.13456919995951466,
+          "wall_seconds": 0.1679126999952132
+        },
+        {
+          "seed": 852,
+          "success": true,
+          "reason": "success",
+          "lines": 40,
+          "pieces": 102,
+          "terminated": true,
+          "truncated": false,
+          "input_ticks": 449,
+          "game_time_seconds": 7.483333333333333,
+          "episode_return": 134.9,
+          "inference_seconds": 0.003153499979816843,
+          "wall_seconds": 0.028848000001744367
+        }
+      ],
+      "evaluation_wall_seconds": 0.19919620000291616
+    }
+  }
+}

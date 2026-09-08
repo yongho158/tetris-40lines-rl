@@ -1,0 +1,11 @@
+{
+  "line": 1.0,
+  "success": 100.0,
+  "topout": -100.0,
+  "placement": -0.05,
+  "invalid": -1.0,
+  "potential_scale": 0.1,
+  "height_weight": 0.02,
+  "holes_weight": 0.5,
+  "potential_bound": 10.0
+}

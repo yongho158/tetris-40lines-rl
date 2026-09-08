@@ -1,0 +1,2 @@
+{"seed": 851, "success": true, "reason": "success", "lines": 40, "pieces": 102, "terminated": true, "truncated": false, "input_ticks": 437, "game_time_seconds": 7.283333333333333, "episode_return": 134.90000000000003, "inference_seconds": 0.13456919995951466, "wall_seconds": 0.1679126999952132}
+{"seed": 852, "success": true, "reason": "success", "lines": 40, "pieces": 102, "terminated": true, "truncated": false, "input_ticks": 449, "game_time_seconds": 7.483333333333333, "episode_return": 134.9, "inference_seconds": 0.003153499979816843, "wall_seconds": 0.028848000001744367}

@@ -1,0 +1,90 @@
+{
+  "metrics": {
+    "episodes": 5,
+    "successes": 5,
+    "success_rate": 1.0,
+    "success_pieces_mean": 101.6,
+    "success_pieces_median": 101.0,
+    "success_pieces_p90": 102.6,
+    "mean_lines": 40.2,
+    "failure_lines_mean": null,
+    "mean_return": 134.92000000000002
+  },
+  "episodes": [
+    {
+      "seed": 1000000,
+      "success": true,
+      "reason": "success",
+      "pieces": 101,
+      "lines": 40,
+      "return": 134.95000000000002,
+      "input_ticks": 512,
+      "game_time_seconds": 8.533333333333333,
+      "wall_seconds": 0.08106019999831915
+    },
+    {
+      "seed": 1000001,
+      "success": true,
+      "reason": "success",
+      "pieces": 101,
+      "lines": 40,
+      "return": 134.95000000000002,
+      "input_ticks": 499,
+      "game_time_seconds": 8.316666666666666,
+      "wall_seconds": 0.07860449999861885
+    },
+    {
+      "seed": 1000002,
+      "success": true,
+      "reason": "success",
+      "pieces": 101,
+      "lines": 40,
+      "return": 134.95000000000002,
+      "input_ticks": 495,
+      "game_time_seconds": 8.25,
+      "wall_seconds": 0.07660369999939576
+    },
+    {
+      "seed": 1000003,
+      "success": true,
+      "reason": "success",
+      "pieces": 102,
+      "lines": 40,
+      "return": 134.90000000000003,
+      "input_ticks": 509,
+      "game_time_seconds": 8.483333333333333,
+      "wall_seconds": 0.07909700000163866
+    },
+    {
+      "seed": 1000004,
+      "success": true,
+      "reason": "success",
+      "pieces": 103,
+      "lines": 41,
+      "return": 134.85000000000002,
+      "input_ticks": 534,
+      "game_time_seconds": 8.9,
+      "wall_seconds": 0.07580700000107754
+    }
+  ],
+  "metadata": {
+    "method": "maskable_ppo",
+    "update": 1,
+    "rl_updated": true,
+    "parameter_l2_drift_from_run_start": 0.0010036337189376354,
+    "optimizer_updates": 8,
+    "validation": {
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "success_pieces_mean": 101.6,
+      "success_pieces_median": 101.0,
+      "success_pieces_p90": 102.6,
+      "mean_lines": 40.2,
+      "failure_lines_mean": null,
+      "mean_return": 134.92000000000002
+    },
+    "run_steps": 764,
+    "elapsed_seconds": 30.253554344177246
+  }
+}

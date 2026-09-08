@@ -1,0 +1,13 @@
+{
+  "started_at_unix": 1788868037.1120808,
+  "started_at_utc": "2026-09-08T11:47:17.112081+00:00",
+  "max_seconds": 18000.0,
+  "max_transitions": 5000000,
+  "transitions": 1101435,
+  "reserved_transitions": 1101435,
+  "elapsed_seconds": 610.3870520591736,
+  "remaining_steps": 3898565,
+  "deadline_utc": "2026-09-08T16:47:17.112081+00:00",
+  "exhausted": false,
+  "accounting": "all training and validation steps; elapsed wall time across sequential runs; crash reservations charged conservatively"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tetris-40lines-rl"
+version = "0.1.0"
+description = "Reproducible reachable-placement Tetris 40 Lines reinforcement learning"
+requires-python = ">=3.11,<3.15"
+dependencies = ["numpy", "numba", "gymnasium", "torch", "stable-baselines3", "sb3-contrib", "pillow", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["tetris_rl*"]
+
+[tool.setuptools.package-data]
+tetris_rl = ["live.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

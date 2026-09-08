@@ -1,0 +1,70 @@
+{
+  "verified_at_utc": "2026-09-08T12:00:03.333121+00:00",
+  "pytest": {
+    "command": ".venv/Scripts/python.exe -m pytest",
+    "passed": 33,
+    "failed": 0,
+    "reported_seconds": 5.7
+  },
+  "dependencies": {
+    "command": ".venv/Scripts/python.exe -m pip check",
+    "result": "No broken requirements found."
+  },
+  "mechanics_extra_checks": {
+    "independently_replayed_candidate_paths": 8322,
+    "engine_baseline_training_range_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "baseline_successes": 30,
+    "baseline_mean_pieces": 102.23,
+    "environment_steps_per_second": 3261
+  },
+  "artifact_audit": {
+    "paired_test_episodes_per_agent": 200,
+    "agents": 5,
+    "success_counts_recomputed": true,
+    "frozen_checkpoint_hash_verified": true,
+    "test_seeds_exact": true,
+    "success_means_at_least_40_lines": true,
+    "max_500_placements_verified": true,
+    "json_jsonl_all_1000_episodes_match": true,
+    "independent_audit": "Separate agent recomputed all stored episode metrics and verified freeze/source/checkpoint hashes; no test rerun."
+  },
+  "browser_qa": {
+    "http_smoke_replay_slider": true,
+    "http_smoke_replay_play_advances": true,
+    "http_smoke_replay_board_visible_in_viewport_after_css_fix": true,
+    "offline_html_self_contained_source_verified": true,
+    "final_html_frame_count_and_schema_verified": true,
+    "file_url_browser_check": "Blocked by Codex browser URL security policy; no workaround attempted. User may open the delivered HTML in their own normal browser."
+  }
+}

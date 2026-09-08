@@ -1,0 +1,16 @@
+{
+  "target_lines": 40,
+  "max_pieces": 500,
+  "target_success_rate": 0.99,
+  "max_training_seconds": 18000,
+  "max_training_transitions": 5000000,
+  "train_seed_range": [0, 999999],
+  "validation_seeds": {"start": 1000000, "count": 50},
+  "test_seeds": {"start": 2000000, "count": 200},
+  "visible_board": [20, 10],
+  "hidden_rows": 4,
+  "next_preview": 5,
+  "timing": "Zero gravity, unlimited manipulation, one tick per discrete input, 60 nominal ticks/second. This is not commercial sprint timing.",
+  "selection": "Validation success rate first, then fewer pieces on successful episodes; never tune on final test.",
+  "reward": {"line": 1.0, "success": 100.0, "topout": -100.0, "placement": -0.05, "invalid": -1.0, "potential_scale": 0.1, "height_weight": 0.02, "holes_weight": 0.5, "potential_bound": 10.0}
+}

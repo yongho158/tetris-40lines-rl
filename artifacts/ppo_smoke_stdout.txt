@@ -1,0 +1,36 @@
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | -74      |
+| time/              |          |
+|    fps             | 263      |
+|    iterations      | 1        |
+|    time_elapsed    | 0        |
+|    total_timesteps | 128      |
+---------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 115           |
+|    ep_rew_mean          | 30.2          |
+| time/                   |               |
+|    fps                  | 316           |
+|    iterations           | 2             |
+|    time_elapsed         | 0             |
+|    total_timesteps      | 256           |
+| train/                  |               |
+|    approx_kl            | 8.2561746e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -2.38         |
+|    explained_variance   | -0.00344      |
+|    learning_rate        | 3e-05         |
+|    loss                 | 408           |
+|    n_updates            | 4             |
+|    policy_gradient_loss | -0.00013      |
+|    value_loss           | 683           |
+-------------------------------------------
+{"event": "ppo_validation", "method": "maskable_ppo", "update": 1, "rl_updated": true, "parameter_l2_drift_from_run_start": 0.0010036337189376354, "optimizer_updates": 8, "validation": {"episodes": 5, "successes": 5, "success_rate": 1.0, "success_pieces_mean": 101.6, "success_pieces_median": 101.0, "success_pieces_p90": 102.6, "mean_lines": 40.2, "failure_lines_mean": null, "mean_return": 134.92000000000002}, "run_steps": 764, "elapsed_seconds": 30.253554344177246}
+{"method": "ppo", "outcome": "finished_requested_generations", "invocation_transitions": 764, "budget": {"started_at_unix": 1788868037.1120808, "started_at_utc": "2026-09-08T11:47:17.112081+00:00", "max_seconds": 18000.0, "max_transitions": 5000000, "transitions": 4764, "reserved_transitions": 4764, "elapsed_seconds": 30.289185762405396, "remaining_steps": 4995236, "deadline_utc": "2026-09-08T16:47:17.112081+00:00", "exhausted": false, "accounting": "all training and validation steps; elapsed wall time across sequential runs; crash reservations charged conservatively"}}
